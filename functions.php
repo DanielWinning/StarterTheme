@@ -38,3 +38,19 @@ if (!function_exists("startpress_theme_setup")) {
     }
     add_action("after_setup_theme", "startpress_theme_setup");
 }
+
+if (!function_exists("startpress_theme_scripts")) {
+    function startpress_theme_scripts()
+    {
+        /*
+         * Enqueue styles
+         */
+        wp_enqueue_style("startpress-style", get_template_directory_uri() . "/assets/css/style.css");
+
+        /*
+         * Enqueue scripts
+         */
+        wp_enqueue_script("startpress-script", get_template_directory_uri() . "/assets/js/startpress.js", "1.0.0", true);
+    }
+    add_action("wp_enqueue_scripts", "startpress_theme_scripts");
+}
