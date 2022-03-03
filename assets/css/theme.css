@@ -423,10 +423,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-}.bg-gray-300 {
+}
+.bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
-}.py-6 {
+}
+.py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }

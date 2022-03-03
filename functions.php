@@ -50,7 +50,7 @@ if (!function_exists("startpress_theme_scripts")) {
         /*
          * Enqueue scripts
          */
-        wp_enqueue_script("theme-script", get_template_directory_uri() . "/assets/js/theme.js", "1.0.0", true);
+        wp_enqueue_script("theme-script", get_template_directory_uri() . "/assets/js/theme.js", "1.0.0", true, true);
     }
     add_action("wp_enqueue_scripts", "startpress_theme_scripts");
 }

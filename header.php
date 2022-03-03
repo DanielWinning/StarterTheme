@@ -17,7 +17,8 @@
 
 </head>
 <body <?php body_class(); ?>>
-    <header class="py-6 bg-gray-300">
-        Site Header
-    </header>
-    <main>
+    <div id="app">
+        <header class="py-6 bg-gray-300">
+            Site Header
+        </header>
+        <main>
