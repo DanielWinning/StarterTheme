@@ -4,7 +4,8 @@
   "description": "A starter theme for WordPress",
   "scripts": {
     "build": "npx webpack --config webpack.config.js --progress --mode=production",
-    "dev": "npx webpack --config webpack.config.js --progress --mode=development"
+    "dev": "npx webpack --config webpack.config.js --progress --mode=development",
+    "watch": "npx webpack watch --config webpack.config.js --progress --mode=development"
   },
   "author": "",
   "license": "ISC",
