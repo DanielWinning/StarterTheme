@@ -2,12 +2,6 @@
 
 get_header();
 
-echo "Home";
-
-?>
-
-<hello-wordpress></hello-wordpress>
-
-<?php
+echo "home.php";
 
 get_footer();

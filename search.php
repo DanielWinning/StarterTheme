@@ -2,6 +2,6 @@
 
 get_header();
 
-echo "Search";
+echo "search.php";
 
 get_footer();

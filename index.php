@@ -2,6 +2,6 @@
 
 get_header();
 
-echo "Index";
+echo "index.php";
 
 get_footer();

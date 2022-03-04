@@ -2,6 +2,6 @@
 
 get_header();
 
-echo "Page";
+echo "page.php";
 
 get_footer();

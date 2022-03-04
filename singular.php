@@ -2,6 +2,6 @@
 
 get_header();
 
-echo "Singular";
+echo "singular.php";
 
 get_footer();
