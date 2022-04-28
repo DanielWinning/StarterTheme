@@ -12,7 +12,7 @@ Requires:
 - PHP 7.2+
 ## How to use?
 - Click "use this template"
-- Clone your new repo into a WordPress installation
+- Clone your new repo into a WordPress installation, inside the themes directory
 - `cd` into the theme directory (`cd wp-content/themes/StarterTheme`)
 - run `npm install`
 - run `npm run dev` or `npm run watch`
